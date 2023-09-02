@@ -1,0 +1,35 @@
+.BestTeam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team_img {
+  display: flex;
+}
+
+.team_img-item {
+  background-color: #c1cfd2;
+}
+
+.team_inner {
+  /* text-align: ; */
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.team_title {
+  font-size: 45px;
+}
+
+.team_title span {
+  font-weight: 600;
+  font-style: italic;
+  /* border-bottom: 5px solid #ffe381; */
+  text-decoration: underline;
+  text-decoration-color: #ffe381;
+}
+
+.team_text {
+  margin-top: 40px;
+}

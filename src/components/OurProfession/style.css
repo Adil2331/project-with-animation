@@ -1,0 +1,42 @@
+.OurProfession {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profession_img {
+  background-color: #fdd995;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.profession_inner {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.profession_subtitle {
+  font-weight: 400;
+}
+
+.profession_subtitle span {
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #ffe381;
+}
+
+.profession_title {
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.profession_text {
+  margin-bottom: 50px;
+}
+
+.profession_link {
+  color: rgba(34, 34, 34, 0.6);
+  border-bottom: 1px solid rgba(34, 34, 34, 0.6);
+}

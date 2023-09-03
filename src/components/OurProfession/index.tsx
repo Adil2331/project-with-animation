@@ -3,7 +3,7 @@ import './style.css'
 
 const OurProfession = () => {
   return (
-    <div className="OurProfession">
+    <div className="OurProfession container ">
       <img
         className="profession_img"
         src="https://cherchesusan.com/wp-content/uploads/fly-images/489/f22-1-0x1200.png"

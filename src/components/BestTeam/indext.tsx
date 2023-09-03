@@ -3,7 +3,7 @@ import './style.css'
 
 const BestTeam = () => {
   return (
-    <div className="BestTeam container">
+    <div className="BestTeam ">
       <div className="team_inner">
         <h1 className="team_title">
           Build the <span>best teams</span> with great people

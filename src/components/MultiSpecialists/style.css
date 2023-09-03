@@ -1,0 +1,47 @@
+.MultiSpecialists {
+  margin-top: 100px;
+}
+
+.specialists_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specialists_inner-left {
+  max-width: 100%;
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.specialists_subtitle {
+  text-decoration: underline;
+  text-decoration-color: #ffe381;
+  font-weight: 400;
+}
+
+.specialists_subtitle span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.specialists_title {
+  max-width: 400px;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.specialists_link {
+  color: rgba(34, 34, 34, 0.6);
+  border-bottom: 1px solid rgba(34, 34, 34, 0.6);
+}
+
+.specialists_img {
+  background-color: bisque;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 50%;
+  flex-basis: 50%;
+}

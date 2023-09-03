@@ -84,12 +84,12 @@ function App() {
 
   return (
     <div className="App container">
+      <Menu />
       <motion.div ref={containerRef} style={{ y: style }}>
         <BestTeam />
         <OurProfession />
         <MultiSpecialists />
       </motion.div>
-      <Menu />
     </div>
   )
 }

@@ -14,7 +14,6 @@
 }
 
 .team_inner {
-  /* text-align: ; */
   margin: 0 auto;
   max-width: 400px;
 }
@@ -26,7 +25,6 @@
 .team_title span {
   font-weight: 600;
   font-style: italic;
-  /* border-bottom: 5px solid #ffe381; */
   text-decoration: underline;
   text-decoration-color: #ffe381;
 }

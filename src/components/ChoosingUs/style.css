@@ -36,7 +36,32 @@
   margin-bottom: 50px;
 }
 
-.profession_link {
+.choosing_link {
   color: rgba(34, 34, 34, 0.6);
+  padding-bottom: 5px;
   border-bottom: 1px solid rgba(34, 34, 34, 0.6);
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.choosing_link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+.choosing_link:hover {
+  color: black;
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.choosing_link:hover::before {
+  width: 100%;
+  transition: width 0.3s;
 }

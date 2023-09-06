@@ -10,6 +10,7 @@ import OurProfession from './components/OurProfession'
 import { useLayoutEffect, useRef, useState } from 'react'
 import MultiSpecialists from './components/MultiSpecialists'
 import Menu from './components/Menu'
+import ChoosingUs from './components/ChoosingUs'
 
 function App() {
   const { scrollY } = useViewportScroll()
@@ -40,6 +41,7 @@ function App() {
         <BestTeam />
         <OurProfession />
         <MultiSpecialists />
+        <ChoosingUs />
       </motion.div>
     </div>
   )

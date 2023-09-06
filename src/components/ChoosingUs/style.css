@@ -1,0 +1,42 @@
+.ChoosingUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.choosing_img {
+  background-color: #c1cfd2;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.choosing_inner {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.choosing_subtitle {
+  text-decoration: underline;
+  text-decoration-color: #ffe381;
+  font-weight: 400;
+}
+
+.choosing_subtitle span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.choosing_title {
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.choosing_text {
+  margin-bottom: 50px;
+}
+
+.profession_link {
+  color: rgba(34, 34, 34, 0.6);
+  border-bottom: 1px solid rgba(34, 34, 34, 0.6);
+}

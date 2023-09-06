@@ -71,7 +71,7 @@ const Menu = () => {
       </div>
       <ul className="menu_nav">
         <motion.li
-          className="menu_nav-item"
+          className="menu_nav-item nav-item"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
@@ -79,7 +79,7 @@ const Menu = () => {
           Our Offers
         </motion.li>
         <motion.li
-          className="menu_nav-item"
+          className="menu_nav-item nav-item"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
